@@ -1,0 +1,23 @@
+[package]
+name = "tabbislashcat-infant"
+version = "0.1.0"
+edition = "2021"
+authors = ["UaZit DeSutter <uazit@stalph.co>"]
+description = "ultra-minimal token compression — beyond caveman"
+license = "Apache-2.0"
+repository = "https://github.com/thetabbicat/tabbislashcat-infant"
+homepage = "https://github.com/thetabbicat/tabbislashcat-infant"
+readme = "README.md"
+keywords = ["serialization", "binary", "token", "minimal", "protocol"]
+categories = ["encoding", "data-structures"]
+
+[dependencies]
+
+[dev-dependencies]
+
+[features]
+default = []
+
+[[example]]
+name = "rust_example"
+path = "examples/rust_example.rs"
